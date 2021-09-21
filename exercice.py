@@ -55,7 +55,7 @@ def format_horizontal_histogram(histogram):
 	for i in range(0, len(histogram) + 1):
 		result += LINE_CHAR
 
-	return str(result)
+	return result
 
 
 if __name__ == "__main__":
@@ -63,3 +63,4 @@ if __name__ == "__main__":
 	eggs = get_word_length_histogram(spam)
 	print(eggs, "\n")
 	print(format_histogram(eggs), "\n")
+	print(format_horizontal_histogram(eggs))
