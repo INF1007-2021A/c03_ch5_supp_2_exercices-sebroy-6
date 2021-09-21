@@ -63,4 +63,3 @@ if __name__ == "__main__":
 	eggs = get_word_length_histogram(spam)
 	print(eggs, "\n")
 	print(format_histogram(eggs), "\n")
-	print(format_horizontal_histogram(eggs))
